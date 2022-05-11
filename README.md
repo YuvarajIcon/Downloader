@@ -22,7 +22,7 @@ pod 'Downloader'
 
 ## Author
 
-yuvaraj@ncompass.in, yuvaraj@ncompass.in
+Yuvaraj, yuvaraj.australia@gmail.com
 
 ## License
 
