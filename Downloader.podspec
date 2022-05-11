@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Downloader'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Downloader.'
+  s.summary          = 'A library for all download related tasks.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,18 +17,16 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'A library to easily download files, images or others with progress and completion notifiers.'
 
-  s.homepage         = 'https://github.com/yuvaraj@ncompass.in/Downloader'
+  s.homepage         = 'https://github.com/YuvarajIcon/Downloader'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'yuvaraj@ncompass.in' => 'yuvaraj@ncompass.in' }
-  s.source           = { :git => 'https://github.com/yuvaraj@ncompass.in/Downloader.git', :tag => s.version.to_s }
+  s.author           = { 'YuvarajIcon' => 'yuvaraj.australia@gmail.com' }
+  s.source           = { :git => 'https://github.com/YuvarajIcon/Downloader.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'Downloader/Classes/**/*'
   
